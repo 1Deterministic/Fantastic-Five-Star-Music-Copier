@@ -7,7 +7,7 @@ def get_extension(path):
 
 # this function returns true if the file given in 'path' is an audio file, and false if it isn't
 def is_audio_file(path):
-    # it only supports .mp3 ¯\_(ツ)_/¯
+    # it only supports .mp3
     if get_extension(path) == ".mp3":
         return True
     else:
